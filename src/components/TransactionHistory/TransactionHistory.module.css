@@ -1,0 +1,45 @@
+@value shadow, grey-text, white-color, blue-color from '../../vars.module.css';
+
+.transaction {
+  margin: 60px auto;
+  width: fit-content;
+}
+
+.transaction__history {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 500px;
+  box-shadow: shadow;
+}
+
+tbody td {
+  text-align: center;
+  color: grey-text;
+}
+
+thead tr {
+  font-size: 20px;
+  color: white-color;
+  background-color: rgba(2, 182, 253, 1);
+}
+
+thead th:not(:last-child) {
+  border-right: 1px solid white-color;
+}
+
+tbody td {
+  border: 1px solid grey-text;
+}
+
+body tr:nth-child(even) {
+  background-color: white-color;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: blue-color;
+}
+
+th,
+td {
+  padding: 20px;
+}

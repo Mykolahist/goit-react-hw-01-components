@@ -1,0 +1,14 @@
+body {
+  background-color: rgba(205, 200, 255, 0.15);
+}
+
+h1,
+h2,
+p,
+span {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+}

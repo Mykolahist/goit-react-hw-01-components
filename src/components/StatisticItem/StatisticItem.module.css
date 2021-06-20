@@ -1,0 +1,17 @@
+@value white-color from '../../vars.module.css';
+
+.label {
+  display: block;
+  text-align: center;
+  margin: 15px 0 5px 0;
+  font-size: 15px;
+  color: white-color;
+}
+
+.percentage {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: white-color;
+}

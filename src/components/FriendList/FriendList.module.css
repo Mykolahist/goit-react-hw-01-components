@@ -1,0 +1,18 @@
+@value shadow, white-color from '../../vars.module.css';
+
+.friends {
+  margin: 60px auto;
+  padding: 0;
+  width: fit-content;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  width: 400px;
+  box-shadow: shadow;
+  border-radius: 6px;
+  background-color: white-color;
+}
